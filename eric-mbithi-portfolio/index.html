@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eric Mbithi — Software Engineer</title>
+  <meta name="description" content="Eric Mbithi — Software Engineer portfolio. Full-stack development with React, Node.js, and MongoDB." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Archivo+Black&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="grain"></div>
+  <div class="progress" id="progress"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav>
+    <div class="logo">EM/</div>
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-coord mono">1.2921°S<br>36.8219°E<br>NAIROBI, KENYA</div>
+    <p class="hero-eyebrow">Software Engineer — Full Stack</p>
+    <h1 id="heroTitle">
+      <span class="line"><span>ERIC</span></span>
+      <span class="line"><span>MBITHI<span class="accent">.</span></span></span>
+    </h1>
+    <div class="hero-sub">
+      <p>Software engineer crafting performant, scalable web applications with a sharp eye for design and user experience.</p>
+      <div class="hero-stack mono">
+        <span>React</span><span>Node.js</span><span>MongoDB</span><span>PostgreSQL</span>
+      </div>
+    </div>
+    <div class="scroll-cue"><div class="bar"></div>SCROLL</div>
+  </section>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="marquee-wrap">
+    <div class="marquee-track" id="marquee"></div>
+  </div>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section-pad" id="about">
+    <div class="section-head">
+      <h2>About</h2>
+      <span class="section-num mono">01 / 04</span>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p><span class="hi mono">Hi, I'm Eric —</span> a software engineer crafting performant, scalable web applications with a sharp eye for design and user experience. Backend-leaning, full-stack in practice — I build with Node.js and Express at the core, React on the frontend, and I'm always picking up what the next project needs.</p>
+      </div>
+      <div class="about-side">
+        <div class="stat"><b class="counter" data-target="18">0</b><span>Months Building Software</span></div>
+        <div class="stat"><b class="counter" data-target="3">0</b><span>Full-Stack Projects Shipped</span></div>
+        <div class="stat"><b class="counter" data-target="9">0</b><span>Core Technologies</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WORK ================= -->
+  <section class="section-pad" id="work">
+    <div class="section-head">
+      <h2>Selected Work</h2>
+      <span class="section-num mono">02 / 04</span>
+    </div>
+    <div id="projectList"></div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section-pad" id="skills">
+    <div class="section-head">
+      <h2>Capabilities</h2>
+      <span class="section-num mono">03 / 04</span>
+    </div>
+    <div class="skills-wrap">
+      <div class="skill-col">
+        <h4>Backend &amp; Data</h4>
+        <div class="skill-row"><span>Node.js / Express</span><span>CORE</span></div>
+        <div class="skill-row"><span>MongoDB</span><span>CORE</span></div>
+        <div class="skill-row"><span>PostgreSQL</span><span>CORE</span></div>
+        <div class="skill-row"><span>JavaScript / TypeScript</span><span>CORE</span></div>
+        <div class="skill-row"><span>Python</span><span>LEARNING</span></div>
+      </div>
+      <div class="skill-col">
+        <h4>Frontend &amp; Tools</h4>
+        <div class="skill-row"><span>React</span><span>CORE</span></div>
+        <div class="skill-row"><span>HTML / CSS</span><span>CORE</span></div>
+        <div class="skill-row"><span>Git / GitHub</span><span>CORE</span></div>
+        <div class="skill-row"><span>Next.js / Tailwind</span><span>LEARNING</span></div>
+        <div class="skill-row"><span>AWS</span><span>LEARNING</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact" id="contact">
+    <p class="contact-eyebrow mono">04 / 04 — Get in touch</p>
+    <h2>Let's build<br>something <a href="mailto:ericmbithiofficial@gmail.com">worth it →</a></h2>
+    <div class="contact-links">
+      <a href="mailto:ericmbithiofficial@gmail.com">Email</a>
+      <a href="https://github.com/iiTzEric" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/eric-mbithi-b2b661408/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="/resume.pdf" target="_blank">Resume ↓</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Eric Mbithi</span>
+    <span>Built with GSAP</span>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

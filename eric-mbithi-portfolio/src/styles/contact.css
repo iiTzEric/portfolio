@@ -1,0 +1,18 @@
+.contact{
+  min-height:100vh; display:flex; flex-direction:column; justify-content:center; padding:0 5vw;
+  border-top:1px solid var(--line);
+}
+.contact-eyebrow{font-family:'JetBrains Mono'; font-size:13px; color:var(--olive); text-transform:uppercase; letter-spacing:.2em; margin-bottom:24px;}
+.contact h2{
+  font-family:'Archivo Black'; text-transform:uppercase; font-size:clamp(40px,9vw,120px); line-height:.92; letter-spacing:-0.02em;
+}
+.contact h2 a{color:var(--paper); text-decoration:none; position:relative; display:inline-block;}
+.contact h2 a::after{
+  content:''; position:absolute; left:0; bottom:6px; width:100%; height:6px; background:var(--coral); z-index:-1; transform:scaleX(0); transform-origin:left; transition:transform .45s ease;
+}
+.contact h2 a:hover::after{transform:scaleX(1);}
+.contact-links{display:flex; gap:34px; margin-top:60px; flex-wrap:wrap;}
+.contact-links a{
+  font-family:'JetBrains Mono'; font-size:13px; text-transform:uppercase; letter-spacing:.1em; color:var(--paper);
+  text-decoration:none; padding-bottom:4px; border-bottom:1px solid var(--olive);
+}
