@@ -1,4 +1,3 @@
-// Edit this array to add, remove, or update projects.
 // Each project renders as one row in the "Selected Work" section.
 export const projects = [
   {
