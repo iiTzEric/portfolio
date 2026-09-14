@@ -18,11 +18,11 @@ export const projects = [
   },
   {
     num: "03",
-    name: "Personal Portfolio",
-    tags: ["React", "Vite", "CSS Modules"],
-    desc: "An earlier portfolio site built to showcase my work — responsive layout, animated hero, and a frosted-glass scroll-aware navbar.",
+    name: "Lingofy",
+    tags: [" React, Node.js, Express.js, MongoDB, JWT, Stream Chat & Video SDKs"],
+    desc: "a social language-learning app for finding conversation partners and practicing together. It combines discovery, friend requests, messaging, and video calls in one focused experience.",
     url: "https://personal-portfolio-woad-eight.vercel.app",
-    repo: "https://github.com/iiTzEric/Personal-Portfolio"
+    repo: "https://github.com/iiTzEric/Lingofy"
   }
 ];
 
