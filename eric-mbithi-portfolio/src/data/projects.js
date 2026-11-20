@@ -1,12 +1,11 @@
-// Each project renders as one row in the "Selected Work" section.
 export const projects = [
   {
     num: "01",
-    name: "BudgetBuddy",
-    tags: ["React", "Node.js", "MongoDB", "Groq AI"],
-    desc: "Personal finance app with expense tracking, budgets, and savings goals — plus an AI advisor (LLaMA 3.3 70B) that reads your real financial data to give personalized advice.",
-    url: "https://budget-buddy-seven-jet.vercel.app",
-    repo: "https://github.com/iiTzEric/BudgetBuddy"
+    name: "Manifest",
+    tags: ["React", "Node.js", "MongoDB", "Express"],
+    desc: "a client delivery for freelancers and small studios: send finished work through a polished link, and know when it was opened and downloaded.",
+    url: "",
+    repo: "https://github.com/23ryuken/Manifest-Prime"
   },
   {
     num: "02",
@@ -23,8 +22,16 @@ export const projects = [
     desc: "a social language-learning app for finding conversation partners and practicing together. It combines discovery, friend requests, messaging, and video calls in one focused experience.",
     url: "https://personal-portfolio-woad-eight.vercel.app",
     repo: "https://github.com/iiTzEric/Lingofy"
+  },
+  {
+    num: "04",
+    name: "TraceMind",
+    tags: ["Python", "Flask", "Supabase", "React"],
+    desc: "a debugging investigation tool that helps developers capture errors along with their available evidence. ",
+    url: "",
+    repo: "https://github.com/23ryuken/TraceMind"
   }
 ];
 
-// Words shown in the looping marquee band.
+
 export const marqueeWords = ["BUILD", "SHIP", "ITERATE"];
